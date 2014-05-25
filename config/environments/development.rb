@@ -38,4 +38,14 @@ Rails.application.configure do
   # Required for Heroku
   config.action_mailer.default_url_options = { host: 'localhost:3000' }
 
+  # config/environments/development.rb -- To test uploads to S3 locally
+  config.paperclip_defaults = {
+  :storage => :s3,
+  :s3_credentials => {
+    :bucket => ENV['omr--pinteresting'],
+    :access_key_id => ENV['AKIAIST5JEFOX5W4N7OQ'],
+    :secret_access_key => ENV['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']
+  }
+}
+
 end
