@@ -1,12 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:600);
 
-$body-bg: 																#bdc3c7;
+$body-bg: 																#e0e0e0;
 $font-family-sans-serif: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, font-family-sans-serif;
 $brand-primary:     						 					#2ecc71;
 $btn-primary-border: 					darken(#27ae60, 5%);
 $navbar-default-brand-color: 		 					#2ecc71;
 $navbar-default-border:  				 					#7f8c8d;
 $navbar-default-link-hover-color:					#2c3e50;
+$jumbotron-bg:                            #ffffff;
 
 
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.eot"
