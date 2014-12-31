@@ -1,6 +1,7 @@
 # One Month Rails
 
-This is the pinteresting sample app for
-[*One Month Rails*] (http://www.onemonthrails.com)
+This is the pinteresting sample app built following the  [*One Month Rails*](http://www.onemonthrails.com) course.  
 
-by [Trevor Reiff] (http://treiff.blogspot.com)
+View it live on Heroku [here](https://pinteresting--omr.herokuapp.com/)
+
+Built by [Trevor](http://treiff.me)
